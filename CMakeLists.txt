@@ -1,7 +1,5 @@
 cmake_minimum_required (VERSION 3.21)
-project (PROJECT)
+project (SimpleFasta)
 enable_testing()
 
-add_executable(example src/example.c)
-add_test(example example)
-
+add_executable(fasta-recs src/main.c)
