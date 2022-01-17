@@ -65,6 +65,9 @@ where the space between the sequence name and the sequence is a single tab.
 
 You can test your program by running the `test-fasta-recs.sh` script in the root directory of the repository. It will compare the output of your `fasta-recs` program against the expected output.
 
+The `CMakeLists.txt` file is setup to build a `fasta-recs` program from `src/fasta-recs.c`, so that is a good place to start.
+
+
 ## Exercise: Extracting subsequences
 
 Once we start searching in genomic sequences, it can be helpful to have a tool that extracts a subsequence from a Simple-FASTA file. With such a tool, or code to a similar effect, we can get the genomic sequence at a given position and check that it matches the pattern we searched for.
@@ -99,3 +102,5 @@ cat
 ```
 
 You can use the script `test-get-subseqs.sh` to test your program.
+
+The `CMakeLists.txt` file is setup to build a `get-subseqs` program from `src/get-subseqs.c`, so that is a good place to start.
