@@ -5,5 +5,5 @@ enable_testing()
 add_executable(fasta-recs src/fasta-recs.c src/fasta.c)
 add_executable(get-subseqs src/get-subseqs.c src/fasta.c)
 
-add_test(fasta-recs test-fasta-recs.sh)
-add_test(get-subseqs test-get-subseqs.sh)
+add_test(fasta-recs .test/test-fasta-recs.sh)
+add_test(get-subseqs .test/test-get-subseqs.sh)
